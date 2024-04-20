@@ -377,11 +377,11 @@ header .intro-text {
   position: absolute;
   text-align: center;
   margin: 0 auto;
-  color: #232323;
+  color: #F4D956;
   background: linear-gradient(
     to right,
-    rgba(244, 217, 86, 0.8) 0%,  /* #F4D956 */
-    rgba(196, 176, 32, 0.8) 100%  /* Darker shade of #F4D956 */
+    rgba(35, 35, 35, 0.8) 0%,  /* #232323 */
+    rgba(60, 60, 60, 0.8) 100%  /* Lighter shade of #232323 */
 );
   padding: 30% 0 0;
   height: 100%;
@@ -391,7 +391,7 @@ header .intro-text {
 }
 .hover-bg .hover-text > h4 {
   opacity: 0;
-  color: #232323;
+  color: #F4D956;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   transition: all 0.3s;
