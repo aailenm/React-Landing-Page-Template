@@ -56,7 +56,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Nombre o Razón social"
                         required
                         onChange={handleChange}
                       />
@@ -84,7 +84,7 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Mensaje"
                     required
                     onChange={handleChange}
                   ></textarea>

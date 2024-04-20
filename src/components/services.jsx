@@ -13,7 +13,7 @@ export const Services = (props) => {
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4 d-flex align-items-center">
+                <div key={`${d.name}-${i}`} className="col-md-4 d-flex align-items-center  item-service">
                   <div className="service-icon">
                     <img src={d.icon} alt="" />{" "}
                   </div>

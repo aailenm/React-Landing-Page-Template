@@ -76,7 +76,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: #232323;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -90,7 +90,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #fff;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -354,7 +354,11 @@ header .intro-text {
   color: #232323;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-
+#services .item-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 #services .service-icon img {
   height: 50px;
 }
@@ -451,23 +455,36 @@ header .intro-text {
 }
 /* Team Section */
 #team {
-  padding: 100px 0;
+  padding: 0;
   background: #232323;
 }
 #team h4 {
   margin: 5px 0;
 }
 #team .team-img {
-  width: 240px;
+  width: 260px;
 }
 #team .thumbnail {
   background: transparent;
   border: 0;
+  flex: 0 0 100%;
 }
 #team .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
 }
+#team .brands {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#team .carousel-inner {
+  display: flex;
+  transition: transform 0.6s ease;
+}
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
