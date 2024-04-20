@@ -165,7 +165,7 @@ hr {
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  color: #fff;
+  color: #232323;
   background-color: #F4D956;
   background-image: linear-gradient(to right, #F4D956 0%, #F4D956 100%);
   padding: 14px 34px;
@@ -176,15 +176,17 @@ hr {
   border-radius: 25px;
   transition: all 0.5s linear;
   border: 0;
+  transition: transform 0.3s ease;
 }
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom.focus,
 .btn-custom:active,
 .btn-custom.active {
-  color: #fff;
+  color: #232323;
   background-image: none;
   background-color: #F4D956;
+  transform: scale(1.05);
 }
 .btn:active,
 .btn.active {
@@ -208,16 +210,35 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
-.intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+.video-container {
+  background: #232323;
+  position: relative;
+  overflow: hidden;
+  height: 60vh;
+  color: #fff;
 }
+
+.bg-media-mobile {
+  display: none;
+}
+.video-container video {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 70%;
+  height: 100%;
+  z-index: 0;
+  object-fit: cover;
+}
+
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
@@ -240,31 +261,19 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 200px;
   padding-bottom: 200px;
-  text-align: center;
+  text-align: right;
+  position: relative;
+  z-index: 1;
 }
-/* Features Section */
-#features {
-  background: #232323;
-}
-#features i.fa {
-  font-size: 38px;
-  margin-bottom: 20px;
-  transition: all 0.5s;
-  color: #fff;
-  width: 100px;
-  height: 100px;
-  padding: 30px 0;
-  border-radius: 50%;
-  background: linear-gradient(to right, #F4D956 0%, #F4D956 100%);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-}
+
 /* About Section */
 #about {
   padding: 100px 0;
   background: #232323;
 }
+
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
@@ -609,8 +618,9 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #F4D956;
-  background: #fff;
+  color: #232323;
+  background: #F4D956;
+  border-color: #232323; 
 }
 /* Footer Section*/
 #footer {
