@@ -110,9 +110,9 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Telefono/Whatsapp
+                  <i className="fa fa-whatsapp"></i> Telefono/Whatsapp
                 </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                <a href="https://wa.me/541167617097?text=Hola!%20Quisiera%20cotizar%20un%20encargo%20para%20bordado"> {props.data ? props.data.phone : "loading"} </a>
               </p>
             </div>
             <div className="contact-item">
