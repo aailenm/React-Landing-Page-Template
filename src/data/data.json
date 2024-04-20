@@ -4,82 +4,80 @@
     "paragraph": "Descubre nuestra colección premium de logos empresariales bordados. Calidad y personalización para elevar la imagen de tu marca."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Con más de 10 años en el rubro textil, nos especializamos en bordados industriales de alta calidad. Ubicados en Lanús Oeste, ofrecemos nuestros servicios a grandes empresas en todo el país, proporcionando soluciones personalizadas para ropa de trabajo y blanquería.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Calidad",
+      "Experiencia",
+      "Flexibilidad"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Rápida entrega",
+      "Envíos a todo el país",
+      "Facilidades de pago"    
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "ZENI",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Elecnor",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "FARMFRITES",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "TREND",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "WÜRTH",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Norauto",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Don Satur",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Ford",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Telefónica",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Uniformes",
-      "text": "Realizamos bordados en ropa de trabajo. Garantizamos la mas alta calidad y durabilidad."
+      "icon": "img/icons/uniform.png",
+      "name": "UNIFORMES",
+      "text": "Bordados profesionales para uniformes de trabajo y vestimenta corporativa. Durabilidad y resistencia para un uso prolongado."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Blanqueria",
-      "text": "Bordamos el logo de tu marca en sabanas, toallas, y manteles."
+      "icon": "img/icons/towels.png",
+      "name": "BLANQUERÍA",
+      "text": "Personalización de textiles con el logo de tu empresa, adaptadas a las necesidades específicas de blanquería. "
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "img/icons/packages.png",
+      "name": "GRANDES CANTIDADES",
+      "text": "Capacidades de producción para grandes encargos y pedidos por lote. Cotizaciones a medida y descuentos por volumen."
     }
   ],
   "Testimonials": [

@@ -323,34 +323,42 @@ header .intro-text {
 #services .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: #F4D956;
   height: 4px;
   width: 60px;
   bottom: 0;
   margin-left: -30px;
   left: 50%;
 }
-#services i.fa {
-  font-size: 42px;
-  width: 120px;
-  height: 120px;
-  padding: 40px 0;
-  background: linear-gradient(to right, #F4D956 0%, #F4D956 100%);
-  border-radius: 50%;
-  color: #fff;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-}
+
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
   color: #fff;
+  text-transform: uppercase;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: #828282;
 }
 #services .service-desc {
   margin-bottom: 40px;
 }
+
+#services .service-icon {
+  font-size: 42px;
+  width: 120px;
+  height: 120px;
+  padding: 40px 0;
+  background: linear-gradient(to right, #F7E583 0%, #F4D956 100%);
+  border-radius: 50%;
+  color: #232323;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+#services .service-icon img {
+  height: 50px;
+}
+
 /* Portfolio Section */
 #portfolio {
   background: #232323;
@@ -369,12 +377,12 @@ header .intro-text {
   position: absolute;
   text-align: center;
   margin: 0 auto;
-  color: #fff;
+  color: #232323;
   background: linear-gradient(
     to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
-  );
+    rgba(244, 217, 86, 0.8) 0%,  /* #F4D956 */
+    rgba(196, 176, 32, 0.8) 100%  /* Darker shade of #F4D956 */
+);
   padding: 30% 0 0;
   height: 100%;
   width: 100%;
@@ -383,7 +391,7 @@ header .intro-text {
 }
 .hover-bg .hover-text > h4 {
   opacity: 0;
-  color: #fff;
+  color: #232323;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   transition: all 0.3s;
