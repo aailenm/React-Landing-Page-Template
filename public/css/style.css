@@ -212,7 +212,7 @@ a:focus,
   height: 100vh;
   padding: 0;
   background-color: #232323;
-  -webkit-background-size: cover;
+  -webkit-backgrndsound-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
@@ -488,27 +488,32 @@ header .intro-text {
   margin: 5px 0;
 }
 #team .team-img {
-  width: 260px;
+  padding-bottom: 20px;
+  width: 80%;
 }
+
 #team .thumbnail {
   background: transparent;
   border: 0;
   flex: 0 0 100%;
 }
-#team .thumbnail .caption {
-  padding: 10px 0 0;
-  color: #888;
-}
+
 #team .brands {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   overflow: hidden;
   margin: 0 auto;
+  margin: 0 auto;
 }
-#team .carousel-inner {
-  display: flex;
-  transition: transform 0.6s ease;
+
+#team .slide li {
+  min-width: 50%;
+}
+
+.control-dots {
+  display: none !important;
 }
 
 /* Contact Section */
