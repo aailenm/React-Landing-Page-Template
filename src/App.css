@@ -16,6 +16,10 @@
     display: none;
   }
 
+  .video-container::before {
+    background: linear-gradient(180deg, transparent 2%, #232323 98%);
+  }
+
   .img-tablet {
     display: none;
   }
